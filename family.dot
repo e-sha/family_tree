@@ -1,0 +1,22 @@
+graph G {
+I1 [shape=box,color=blue,style=bold,label="Evgenii Vadimovich Shalnov\nb. 19.4.1991 Vladimir",labelloc=b];
+I2 [shape=box,color=blue,style=bold,label="Vadim Konstantinovich Shalnov\nb. 13.4.1963 Vladimir",labelloc=b];
+I3 [shape=ellipse,color=red,style=bold,label="Marina Sergeevna Shalnova (Bodyagina)\nb. 19.1.1991 Vladimir",labelloc=b];
+I4 [shape=box,color=blue,style=bold,label="Konstantin Petrovich Shalnov\nb. 28.12.1932\nd. 27.3.1993",labelloc=b];
+I5 [shape=ellipse,color=red,style=bold,label="Nina Grigorievna Shalnova (Fokina)\nb. 12.7.1934\nd. 14.8.1999",labelloc=b];
+I6 [shape=ellipse,color=red,style=bold,label="Irina Konstantinova Belotelova (Shalnova)",labelloc=b];
+I7 [shape=box,color=blue,style=bold,label="Petr Mikhailovich Shalnov",labelloc=b];
+I8 [shape=ellipse,color=red,style=bold,label="Maria Mitrophanovna Shalnova\nb. 17.7.1906\nd. 1.7.1978",labelloc=b];
+
+ I2 -- I1 [style=bold,color=blue];
+ I3 -- I1 [style=bold,color=red];
+ I2 -- I3 [style=bold,color=green];
+ I4 -- I2 [style=bold,color=blue];
+ I5 -- I2 [style=bold,color=red];
+ I4 -- I5 [style=bold,color=green];
+ I4 -- I6 [style=bold,color=blue];
+ I5 -- I6 [style=bold,color=red];
+ I7 -- I4 [style=bold,color=blue];
+ I8 -- I4 [style=bold,color=red];
+ I7 -- I8 [style=bold,color=green];
+}
