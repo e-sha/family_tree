@@ -7,6 +7,19 @@ I5 [shape=ellipse,color=red,style=bold,label="Nina Grigorievna Shalnova (Fokina)
 I6 [shape=ellipse,color=red,style=bold,label="Irina Konstantinova Belotelova (Shalnova)",labelloc=b];
 I7 [shape=box,color=blue,style=bold,label="Petr Mikhailovich Shalnov",labelloc=b];
 I8 [shape=ellipse,color=red,style=bold,label="Maria Mitrophanovna Shalnova\nb. 17.7.1906\nd. 1.7.1978",labelloc=b];
+I9 [shape=box,color=blue,style=bold,label="Alexey Petrovich Shalnov",labelloc=b];
+I10 [shape=ellipse,color=red,style=bold,label="Faina Petrovna Kulikova (Shalnova)",labelloc=b];
+I11 [shape=ellipse,color=red,style=bold,label="Valentina Petrovna Khrebtova (Shalnova)",labelloc=b];
+I12 [shape=ellipse,color=red,style=bold,label="Raisa Petrovna Lukolova (Shalnova)",labelloc=b];
+I13 [shape=ellipse,color=red,style=bold,label="Zoya Petrovna Shalnova",labelloc=b];
+I14 [shape=ellipse,color=red,style=bold,label="Raisa Ivanovna Bodyagina (Poemsheva)\nb. 10.5.1940",labelloc=b];
+I15 [shape=box,color=blue,style=bold,label="Sergey Vasilvich Bodyagin\nb. 1936\nd. 1983",labelloc=b];
+I16 [shape=ellipse,color=red,style=bold,label="Maria Ivanovna Poemsheva\nb. 23.6.1916\nd. 7.12.2000",labelloc=b];
+I17 [shape=box,color=blue,style=bold,label="Nikolay Ivanovich Poemshev",labelloc=b];
+I18 [shape=box,color=blue,style=bold,label="Fedor Ivanovich Poemshev",labelloc=b];
+I19 [shape=ellipse,color=red,style=bold,label="Galina Ivanovna Rychagova (Poemsheva)",labelloc=b];
+I20 [shape=ellipse,color=red,style=bold,label="Olga Igorevna Shalnova (Sorokina)\nb. 6.7.1988",labelloc=b];
+I21 [shape=box,color=blue,style=bold,label="Denis Evgen'evich Shalnov\nb. 17.10.2018",labelloc=b];
 
  I2 -- I1 [style=bold,color=blue];
  I3 -- I1 [style=bold,color=red];
@@ -19,4 +32,24 @@ I8 [shape=ellipse,color=red,style=bold,label="Maria Mitrophanovna Shalnova\nb. 1
  I7 -- I4 [style=bold,color=blue];
  I8 -- I4 [style=bold,color=red];
  I7 -- I8 [style=bold,color=green];
+ I7 -- I9 [style=bold,color=blue];
+ I8 -- I9 [style=bold,color=red];
+ I7 -- I10 [style=bold,color=blue];
+ I8 -- I10 [style=bold,color=red];
+ I7 -- I11 [style=bold,color=blue];
+ I8 -- I11 [style=bold,color=red];
+ I7 -- I12 [style=bold,color=blue];
+ I8 -- I12 [style=bold,color=red];
+ I7 -- I13 [style=bold,color=blue];
+ I8 -- I13 [style=bold,color=red];
+ I14 -- I3 [style=bold,color=red];
+ I15 -- I3 [style=bold,color=blue];
+ I14 -- I15 [style=bold,color=green];
+ I16 -- I14 [style=bold,color=red];
+ I16 -- I17 [style=bold,color=red];
+ I16 -- I18 [style=bold,color=red];
+ I16 -- I19 [style=bold,color=red];
+ I20 -- I1 [style=bold,color=green];
+ I1 -- I21 [style=bold,color=blue];
+ I20 -- I21 [style=bold,color=red];
 }
