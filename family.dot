@@ -20,36 +20,57 @@ I18 [shape=box,color=blue,style=bold,label="Fedor Ivanovich Poemshev",labelloc=b
 I19 [shape=ellipse,color=red,style=bold,label="Galina Ivanovna Rychagova (Poemsheva)",labelloc=b];
 I20 [shape=ellipse,color=red,style=bold,label="Olga Igorevna Shalnova (Sorokina)\nb. 6.7.1988",labelloc=b];
 I21 [shape=box,color=blue,style=bold,label="Denis Evgen'evich Shalnov\nb. 17.10.2018",labelloc=b];
+I22 [shape=box,color=blue,style=bold,label="Stanislav Belotelov",labelloc=b];
+I23 [shape=ellipse,color=red,style=bold,label="Marina Stanislavovna Vladimirova (Belotelova)\nb. 19.3.1988",labelloc=b];
+I24 [shape=ellipse,color=red,style=bold,label="Nadezhda Stanislavovna Babushkina (Belotelova)\nb. 24.9.1982",labelloc=b];
+I25 [shape=ellipse,color=red,style=bold,label="Ekaterina Stanislavovna Davydova (Belotelova)\nb. 1979",labelloc=b];
+I26 [shape=box,color=blue,style=bold,label="Aleksandr Davydov\nb. 12.10",labelloc=b];
+I27 [shape=box,color=blue,style=bold,label="Aleksandr Vladimirov\nb. 23.3.1986",labelloc=b];
 
- I2 -- I1 [style=bold,color=blue];
- I3 -- I1 [style=bold,color=red];
+# spouses
  I2 -- I3 [style=bold,color=green];
- I4 -- I2 [style=bold,color=blue];
- I5 -- I2 [style=bold,color=red];
  I4 -- I5 [style=bold,color=green];
- I4 -- I6 [style=bold,color=blue];
- I5 -- I6 [style=bold,color=red];
- I7 -- I4 [style=bold,color=blue];
- I8 -- I4 [style=bold,color=red];
  I7 -- I8 [style=bold,color=green];
- I7 -- I9 [style=bold,color=blue];
+ I14 -- I15 [style=bold,color=green];
+ I20 -- I1 [style=bold,color=green];
+ I6 -- I22 [style=bold,color=green];
+ I25 -- I26 [style=bold,color=green];
+ I23 -- I27 [style=bold,color=green];
+
+# mother - child
+ I3 -- I1 [style=bold,color=red];
+ I5 -- I2 [style=bold,color=red];
+ I5 -- I6 [style=bold,color=red];
+ I8 -- I4 [style=bold,color=red];
  I8 -- I9 [style=bold,color=red];
- I7 -- I10 [style=bold,color=blue];
  I8 -- I10 [style=bold,color=red];
- I7 -- I11 [style=bold,color=blue];
  I8 -- I11 [style=bold,color=red];
- I7 -- I12 [style=bold,color=blue];
  I8 -- I12 [style=bold,color=red];
- I7 -- I13 [style=bold,color=blue];
  I8 -- I13 [style=bold,color=red];
  I14 -- I3 [style=bold,color=red];
- I15 -- I3 [style=bold,color=blue];
- I14 -- I15 [style=bold,color=green];
  I16 -- I14 [style=bold,color=red];
  I16 -- I17 [style=bold,color=red];
  I16 -- I18 [style=bold,color=red];
  I16 -- I19 [style=bold,color=red];
- I20 -- I1 [style=bold,color=green];
- I1 -- I21 [style=bold,color=blue];
  I20 -- I21 [style=bold,color=red];
+ I6 -- I23 [style=bold,color=red];
+ I6 -- I24 [style=bold,color=red];
+ I6 -- I25 [style=bold,color=red];
+
+# father - child
+
+ I2 -- I1 [style=bold,color=blue];
+ I4 -- I2 [style=bold,color=blue];
+ I4 -- I6 [style=bold,color=blue];
+ I7 -- I4 [style=bold,color=blue];
+ I7 -- I9 [style=bold,color=blue];
+ I7 -- I10 [style=bold,color=blue];
+ I7 -- I11 [style=bold,color=blue];
+ I7 -- I12 [style=bold,color=blue];
+ I7 -- I13 [style=bold,color=blue];
+ I15 -- I3 [style=bold,color=blue];
+ I1 -- I21 [style=bold,color=blue];
+ I22 -- I23 [style=bold,color=blue];
+ I22 -- I24 [style=bold,color=blue];
+ I22 -- I25 [style=bold,color=blue];
 }
