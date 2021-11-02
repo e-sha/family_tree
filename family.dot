@@ -26,6 +26,7 @@ I24 [shape=ellipse,color=red,style=bold,label="Nadezhda Stanislavovna Babushkina
 I25 [shape=ellipse,color=red,style=bold,label="Ekaterina Stanislavovna Davydova (Belotelova)\nb. 1979",labelloc=b];
 I26 [shape=box,color=blue,style=bold,label="Aleksandr Davydov\nb. 12.10",labelloc=b];
 I27 [shape=box,color=blue,style=bold,label="Aleksandr Vladimirov\nb. 23.3.1986",labelloc=b];
+I28 [shape=box,color=blue,style=bold,label="Grigorii Ivanovich Fokin\nb. 1906",labelloc=b];
 
 # spouses
  I2 -- I3 [style=bold,color=green];
@@ -73,4 +74,5 @@ I27 [shape=box,color=blue,style=bold,label="Aleksandr Vladimirov\nb. 23.3.1986",
  I22 -- I23 [style=bold,color=blue];
  I22 -- I24 [style=bold,color=blue];
  I22 -- I25 [style=bold,color=blue];
+ I28 -- I5 [style=bold,color=blue];
 }
